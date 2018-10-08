@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.joao.matchfood.ActPrincipal"
+            android:label="@string/title_activity_act_principal"></activity>
+    </application>
+</manifest>

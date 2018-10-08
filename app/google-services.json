@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63576096896",
+    "firebase_url": "https://matchfood-36098.firebaseio.com",
+    "project_id": "matchfood-36098",
+    "storage_bucket": "matchfood-36098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63576096896:android:1669b349fe4c4bbe",
+        "android_client_info": {
+          "package_name": "com.joao.matchfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63576096896-ot4947nqvanvr0laj3lt4a7vnaq4gcg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joao.matchfood",
+            "certificate_hash": "7aa264362ec4593ce28da245a9e7beb9c3a22893"
+          }
+        },
+        {
+          "client_id": "63576096896-eg0n83akumcgb5mpgvtc28es2486b1fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV4qsHRVH5EqitYF36DQfY8hz_snhxWXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63576096896-eg0n83akumcgb5mpgvtc28es2486b1fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

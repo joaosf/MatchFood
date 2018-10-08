@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MatchFood</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Cadastrar Novo Usuário</string>
+    <string name="new_user">Cadastrar Novo Usuário</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Login inválido!</string>
+    <string name="error_invalid_password">Senha muito curta!</string>
+    <string name="error_incorrect_password">Senha incorreta!</string>
+    <string name="error_field_required">Campo obrigatório!</string>
+    <string name="permission_rationale">Preciso de acesso a sua localização, você deixa?</string>
+    <string name="permission_file">Preciso de acesso támbem a seus arquivos, você deixa?</string>
+    <string name="title_activity_act_cadastro">Informações</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_act_config">Ajustes</string>
+    <string name="title_activity_act_fotos">Foto de Perfil</string>
+    <string name="title_activity_act_principal">Inicio</string>
+    <string name="title_activity_act_menu">Match Food</string>
+    <string name="title_activity_act_chat">Conversas</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+
+</resources>

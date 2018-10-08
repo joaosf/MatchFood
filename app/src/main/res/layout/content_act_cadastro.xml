@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.joao.matchfood.ActCadastro"
+    tools:showIn="@layout/activity_act_cadastro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fadeScrollbars="false">
+
+        <EditText
+            android:id="@+id/edNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="39dp"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/edNome"
+            android:ems="10"
+            android:hint="Login"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="Preencha os campos abaixo:" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/edLogin"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edEmail"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edConfirmaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edSenha"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Confirmar Senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edDataNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edConfirmaSenha"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Data de Nascimento"
+            android:inputType="date"
+            android:editable="false"/>
+
+        <Spinner
+            android:id="@+id/cbSexo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/edDataNascimento"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/cbGenero"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/cbSexo"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cbGenero"
+            android:layout_centerHorizontal="true"
+            android:text="Distancia máxima:" />
+
+        <SeekBar
+            android:id="@+id/sbDistancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:max="100"
+            android:progress="20" />
+
+        <TextView
+            android:id="@+id/tvValueDistancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbDistancia"
+            android:layout_centerHorizontal="true"
+            android:text="50" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvValueDistancia"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:text="Buscar por Idade Entre:" />
+
+        <NumberPicker
+            android:id="@+id/npMinimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_toStartOf="@+id/textView4" />
+
+        <NumberPicker
+            android:id="@+id/npMaximo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/npMinimo"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/textView4"
+            />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/npMinimo"
+            android:layout_marginTop="50dp" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
