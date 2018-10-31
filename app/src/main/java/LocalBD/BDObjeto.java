@@ -12,6 +12,7 @@ public class BDObjeto {
     String[] Campos;
     String[] Valores;
     
+    //Owner
     public BDObjeto(String tabela) {
         Tabela = tabela;
     }
