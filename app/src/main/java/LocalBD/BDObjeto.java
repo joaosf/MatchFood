@@ -5,12 +5,13 @@ package LocalBD;
  */
 
 public class BDObjeto {
+    //Campos
     String Tabela;
     String CampoChave;
     String Chave;
     String[] Campos;
     String[] Valores;
-
+    
     public BDObjeto(String tabela) {
         Tabela = tabela;
     }
